@@ -8,3 +8,10 @@ guncel_yil = 2026
 yas = guncel_yil - dogum_yili
 # Kullanıcının adı ve hesaplanan yaşıyla kişiye özel karşılama mesajı yazdırır.
 print(f"Merhaba {ad}! 2026 yılı itibarıyla {yas} yaşındasın.")
+# Kullanıcının yaşına göre farklı bir bilgilendirme mesajı gösterir.
+if yas >= 18:
+    # 18 yaş ve üzeri için ek mesaj yazdırır.
+    print("Yetişkin dönemindesin; yeni hedefler ve keşifler için harika bir zaman!")
+else:
+    # 18 yaş altı için ek mesaj yazdırır.
+    print("Henüz yolun başında genç bir dönemdesin; öğrenmeye devam!")
